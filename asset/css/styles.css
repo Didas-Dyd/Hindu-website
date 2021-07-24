@@ -5,6 +5,9 @@ body{
     background-color: rgb(243, 195, 36);
     font-weight: 100;
 }
+a{
+    text-decoration: none;
+}
 .fixed{
     color: rgb(122, 110, 98)
 
@@ -18,7 +21,8 @@ body{
 }
 .header{
     background-color: white;
-    padding-top: 50PX;
+    padding-top: 10PX;
+    width: 100%;
 }
 .upcoming-temple-container{
    
@@ -100,5 +104,73 @@ font-size: 13px;
 }
 .days{
     width: 120px;
+
+}
+.news-container{
+    width: 100%;
+    height: 0 auto;
+    background-color: rgb(255, 254, 254);
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+.news-row{
+    width: 90%;
+    height: 45vh;
+    background-color: rgb(249, 252, 246);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+.news-item{
+    width: 23%;
+    height: 50vh;
+    margin-top: 0px;
+    margin-left: 20px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.048);
+    
+
+}
+.photo{
+    width: 100%;
+    height: 200px;
+}
+.hindu{
+    font-family: sans-serif;   
+}
+.hindu-months{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.hindu-logo{
+    width: 100px;
+    
+    margin: 0 auto;
+}
+.see-all-eventts{
+    width:200px;
+    margin: 40px auto;
+    color:white;
+    padding:20px 0;
+    border-radius: 200px;
+    border: 2px solid rgb(252, 252, 255);
+    background-color:rgba(47, 86, 104, 0.678);
+    text-align: center;
+
+}
+.see-all-eventts:hover{
+    color:rgb(255, 253, 253);
+    padding:20px 0;
+    border-radius: 200px;
+    border: 2px solid rgb(252, 252, 255);
+    background-color:rgb(78, 83, 99);
 
 }
