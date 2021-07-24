@@ -12,7 +12,12 @@
 
 </head>
   <body>
-    <div class="header"> <h1 style="color: orange; text-align: center; font-weight: 100;">HINDU MANDAL OF RWANDA</h1>
+      
+    <div class="header">
+        <div class="hindu-logo" >
+            <img src="./asset/image/logo.jpeg" class="logo"> 
+        </div>
+         <h1 style="color: orange; text-align: center; font-weight: 100;">HINDU MANDAL OF RWANDA</h1>
         <hr style="margin-left: 10%; margin-right: 10%;">   
         <header>
             <nav class="fixed">
@@ -22,9 +27,71 @@
                 <a href="./component/about.html">ABOUT US</a>
                 <a href="./component/support.html">SUPPORT US</a>
                 <a href="./component/contact.html">CONTACT US</a>
+                <a href="./container/dashboard.html">Dashboard</a>
                 </h1><br>  
             </nav> 
         </header>
+        </div>
+        <div class="news-container">
+            <div class="news-row">
+                <div class="news-item">
+                    <img src="./asset/image/p1.jpeg" alt="" class="photo"><br>
+                     <div class="hindu">
+                         HINDU TEMPLE OF RWANDA
+                     </div>
+                     <div class="hindu-months">
+                         09 April 2021
+                     </div>
+
+                </div>
+                <div class="news-item">
+                    <img src="./asset/image/p2.jpeg" alt="" class="photo">
+                    <div class="hindu">
+                         HINDU TEMPLE OF RWANDA
+                     </div>
+                     <div class="hindu-months">
+                         07 April 2021
+                     </div>  
+                </div>
+                <div class="news-item">
+                    <img src="./asset/image/p3.jpeg" alt="" class="photo">
+                    <div class="hindu">
+                         HINDU TEMPLE OF RWANDA
+                     </div>
+                     <div class="hindu-months">
+                         24 March 2021
+                     </div>   
+                </div>
+                <div class="news-item">
+                    <img src="./asset/image/p4.jpeg" alt="" class="photo"> 
+                    <div class="hindu">
+                         HINDU TEMPLE OF RWANDA
+                     </div>
+                     <div class="hindu-months">
+                         20 March 2021
+                     </div> 
+                </div>
+            </div>
+            <div class="news-row">
+                <div class="news-item">
+                    <img src="./asset/image/p1.jpeg" alt="" class="photo">
+                    <div class="hindu">
+                         HINDU TEMPLE OF RWANDA
+                     </div>
+                     <div class="hindu-months">
+                         09 April 2021
+                     </div>
+                </div>
+                <div class="news-item">
+                    <img src="./asset/image/p2.jpeg" alt="" class="photo">  
+                </div>
+                <div class="news-item">
+                    <img src="./asset/image/p3.jpeg" alt="" class="photo">   
+                </div>
+                <div class="news-item">
+                    <img src="./asset/image/p4.jpeg" alt="" class="photo">  
+                </div>
+            </div>
         </div>
 
     <div class="upcoming-temple-container">
@@ -168,9 +235,9 @@
         
     </div>
     <div>
-    <button style="margin-left: 15%">
+    <a href="./component/events.html"><div class="see-all-eventts">
             SEE ALL EVENTS
-        </button>
+</div></a>
     <footer class="footer">
         <div class="footer-holder">
             Copyright 2021 HINDU TEMPLE OF RWANDA
