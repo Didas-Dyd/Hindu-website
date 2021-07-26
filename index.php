@@ -22,7 +22,7 @@
         <header>
             <nav class="fixed">
                 <h1 style="text-align: center; color: rgb(122, 110, 98);">
-                <a href="./index.php">HOMEPAGE</a>
+                <a href="./index.php" style="color:red">HOMEPAGE</a>
                 <a href="./component/events.html">EVENTS</a>
                 <a href="./component/about.html">ABOUT US</a>
                 <a href="./component/support.html">SUPPORT US</a>
